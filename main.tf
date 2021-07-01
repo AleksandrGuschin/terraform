@@ -1,4 +1,6 @@
 provider "aws" {
+        access_key = "////"
+	secret_key = "////"
         region = "eu-central-1"
 }
 
@@ -17,6 +19,7 @@ data "aws_ami" "ubuntu" {
 
   owners = ["099720109477"]
 }
+ 
 
 data "aws_region""current" {
 }
