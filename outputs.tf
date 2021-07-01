@@ -10,7 +10,7 @@ output "AWS_region" {
   value = data.aws_region.current.name
 }
 
-#так как я инициализировал terraform только на своем компьютере, то некоторые блоки пришлось закомментировать некоторые блоки.
+#так как я инициализировал terraform только на своем компьютере, то некоторые блоки пришлось закомментировать.
 #output "private_ip_ec2" {
 #  value = data.aws_instance.current.private_ip
 # }
